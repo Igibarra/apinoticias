@@ -24,3 +24,32 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.text-primary{
+    color: var( --ion-color-primary);
+}
+
+.article-source-name {
+    font-size: 15px;
+    font-style: italic;
+    color: var( --ion-color-primary);
+}
+
+ion-card-title{
+   color: var( --ion-color-primary);
+   text-align: center;
+   text-decoration: double;
+}
+
+.ion-card-subtitle{
+    color: var( --ion-color-primary);
+}
+
+ion-card-header {
+    background-color: rgb(75, 75, 189);
+    color: var( --ion-color-primary);
+  }
+
+  ion-card-content p{
+    text-align: justify;
+  }
